@@ -55,3 +55,32 @@ sqlite-node-crud
 - **Update User:** `PUT /users/:id`
 - **Delete User:** `DELETE /users/:id`
 
+
+
+
+## API Endpoints
+
+- **Create User:** `POST /users`
+  ```bash
+  curl -X POST -H "Content-Type: application/json" -d '{"name":"John Doe","email":"john@example.com"}' http://localhost:3000/api/users
+  ```
+
+- **Get All Users:** `GET /users`
+  ```bash
+  curl http://localhost:3000/api/users
+  ```
+
+- **Get User by ID:** `GET /users/:id`
+  ```bash
+  curl http://localhost:3000/api/users/1
+  ```
+
+- **Update User:** `PUT /users/:id`
+  ```bash
+  curl -X PUT -H "Content-Type: application/json" -d '{"name":"John Updated","email":"john.updated@example.com"}' http://localhost:3000/api/users/1
+  ```
+
+- **Delete User:** `DELETE /users/:id`
+  ```bash
+  curl -X DELETE http://localhost:3000/api/users/1
+  ```

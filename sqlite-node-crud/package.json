@@ -1,0 +1,17 @@
+{
+  "name": "sqlite-node-crud",
+  "version": "1.0.0",
+  "description": "A simple Node.js application for CRUD operations using SQLite.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
